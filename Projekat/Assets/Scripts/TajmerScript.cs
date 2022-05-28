@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 
 public class TajmerScript : MonoBehaviour
 {
-    // bool TimerOn = false;
     float currentTime = 0;
     float startingTime = 10;
 
@@ -15,7 +14,6 @@ public class TajmerScript : MonoBehaviour
 
     void Start()
     {
-        // TimerOn = true;
         currentTime = startingTime;
     }
 
